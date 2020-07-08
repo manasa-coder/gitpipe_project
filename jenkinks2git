@@ -4,6 +4,7 @@ pipeline{
 						stage(build) {
 									steps{
 											echo 'this is git and pipeline sample test'
+											echo 'this is smoke test to knoe jenkins pipeline'
 										}
 									}
 					    stage(deploy) {
